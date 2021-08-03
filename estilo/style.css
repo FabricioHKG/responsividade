@@ -1,2 +1,25 @@
 @charset "YTF-8";
 
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main p {
+    text-align: justify;
+}
+
+
+/* width (largura) quando se usa width de 100% facilita a responsividade da imagem na página. */
+img {
+    width: 100%;
+}
