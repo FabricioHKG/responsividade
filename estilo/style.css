@@ -23,23 +23,6 @@ main p {
     text-align: justify;
 }
 
-.nao {
-    text-decoration: none;
-}
-
-.azul {
-    background-color: rgba(0, 0, 255, 0.35);
-}
-
-.laranja {
-    background-color: rgba(255, 127, 80, 0.391);
-}
-
-.azul_claro {
-    background-color: rgba(100, 148, 237, 0.453);
-}
-
-
 /* width (largura) quando se usa width de 100% facilita a responsividade da imagem na página. */
 img {
     width: 100%;
