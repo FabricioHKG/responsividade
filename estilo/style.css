@@ -23,6 +23,18 @@ main p {
     text-align: justify;
 }
 
+li mark.azul {
+    color: blue;
+}
+
+.laranja {
+    color: coral;
+}
+
+.azul_claro {
+    color: cornflowerblue;
+}
+
 
 /* width (largura) quando se usa width de 100% facilita a responsividade da imagem na página. */
 img {
