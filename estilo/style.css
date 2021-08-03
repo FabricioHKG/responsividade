@@ -23,7 +23,7 @@ main p {
     text-align: justify;
 }
 
-li mark.azul {
+.azul {
     color: blue;
 }
 
