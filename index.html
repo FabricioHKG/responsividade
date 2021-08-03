@@ -15,7 +15,14 @@
         <ul>
             <li>---- As imagens estão com 100% de width (largura) para facilitar a respansividade/diminuição da mídia com a pagína.</li>
 
-            <li>--- Vale dizer que as imagens pequenas são acionadas quando a página chega a 600px de width (largura). Lembrando que a imagem pequena esta dentro de uma tag &lt;source:media&gt;</li>
+            <li>--- Vale dizer que as imagens pequenas são acionadas quando a página chega a 600px de width (largura). Lembrando que a imagem pequena esta dentro de uma tag <strong>source:media</strong></li>
+
+            <p>EX: <br> source media="(min-width: ) <br> Na parte de: media="(min-width: ) mudei para: media="(max-width: 600px)</p>
+
+            <p> &lt;<mark class="azul">picture</mark>&gt; <br>
+                &lt;<mark class="azul">source</mark> <mark class="laranja">media="(max-width: 600px)"</mark class="laranja"> <mark class="azul_claro">srcset</mark>=<mark class="laranja">"imagens/irina-blok-pq.jpg"</mark>&gt; <br>
+                &lt;<mark class="azul">img</mark> <mark class="azul_claro">src</mark>=<mark class="laranja">"imagens/irina-blok.jpg"</mark> <mark class="azul_claro">alt</mark>=<mark class="laranja">"Criadora do mascote android"</mark>&gt; <br>
+            &lt;<mark class="azul">/picture</mark>&gt;</p>
         </ul>
         <hr>
 
@@ -33,7 +40,7 @@
 
         <picture>
             <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
-            <img src="imagens/irina-blok.jpg" alt="Ccriadora do mascote android">
+            <img src="imagens/irina-blok.jpg" alt="Criadora do mascote android">
         </picture>
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus atque dolor quam magni tenetur reprehenderit soluta sed impedit, voluptate cum eveniet eum et blanditiis perferendis earum sit inventore ipsam voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores neque, natus, nihil facere illo molestiae, molestias laudantium quasi accusamus in nesciunt. Fugit, rerum dolores! Nostrum eum voluptatibus ad distinctio dignissimos.</p>
