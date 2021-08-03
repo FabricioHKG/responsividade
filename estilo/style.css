@@ -1,5 +1,10 @@
 @charset "YTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
 body {
     background-color: gray;
 }
