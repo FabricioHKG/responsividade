@@ -24,15 +24,15 @@ main p {
 }
 
 .azul {
-    color: blue;
+    background-color: blue;
 }
 
 .laranja {
-    color: coral;
+    background-color: coral;
 }
 
 .azul_claro {
-    color: cornflowerblue;
+    background-color: cornflowerblue;
 }
 
 
