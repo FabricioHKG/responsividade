@@ -31,3 +31,22 @@ pre code {
 img {
     width: 100%;
 }
+
+div.video {
+    padding: 20px;
+    padding-bottom: 57%;
+    background-color: black;
+    margin: 0px -20px 30px -20px;
+
+    position: relative;
+}
+
+div.video > iframe {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+    position: absolute;
+
+}
