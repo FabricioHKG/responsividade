@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+strong abbr {
+    text-decoration: none;
+}
+
 body {
     background-color: gray;
 }
