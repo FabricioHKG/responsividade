@@ -36,6 +36,7 @@ img {
     width: 100%;
 }
 
+/* Vale dizer que o background-color 'black' foi usado para ficar mais visível a configuração*/
 div.video {
     padding: 20px;
     padding-bottom: 57%;
